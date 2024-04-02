@@ -1,0 +1,53 @@
+
+.grid-main{
+ 
+ display:inline-block;
+}
+
+.grid{
+    margin-top: 10px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.profile-img{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.thumbnail{
+    border-radius: 7px;
+    width: 100%;
+}
+
+.stats-video{
+    margin-left: 10px;
+}
+
+.p1{
+    font-weight:600;
+}
+
+.p2{
+    color: grey;
+}
+
+.p3{
+    color: grey;
+}
+
+.MASTER-GRID{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
+    background-color: rgb(250, 250, 250);
+    padding-top: 10px;
+    padding-left: 10px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+    border-radius: 5px;
+    
+
+}
