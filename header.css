@@ -1,0 +1,133 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.left-section{
+    align-items: center;
+    display: flex;
+}
+
+.right-section{
+    align-items: center;
+    display: flex;
+}
+
+.middle-section{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 40px;
+    max-width: 500px;
+    display:flex;
+    align-items: center;
+}
+
+.hamburger-menu{
+    height: 20px;
+    margin-left: 24px;
+    
+}
+
+.youtube-logo{
+    height: 20px;
+    margin-left: 24px;
+}
+
+.search-icon{
+    height: 30px;
+    width: 55px;
+
+}
+
+.search-bar{
+    height: 36px;
+    margin-right: 0;
+    padding-right: 1;
+    flex: 1;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+    border-color: rgb(165, 163, 163);
+    border-radius: 2px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.search-button{
+    margin-left: -1px;
+    border-style: solid;
+    border-width:1px;
+    border-color: rgb(165, 163, 163);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.search::placeholder{
+    font-size: 16px;
+}
+
+.voice-icon{
+    height: 30px;
+    margin-left: 0;
+    border: 50px;
+    height: 25px;
+}
+
+.voice-button{
+    border-radius: 60px;
+    border:none;
+    margin-left: 10px;
+    height: 36px;
+}
+
+.profile-header{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+.upload-icon{
+    height: 23px;
+}
+
+.apps-icon{
+    height: 23px;
+}
+
+.notifications-icon{
+    height: 23px;
+}
+
+.upload-button{
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+    
+}
+
+.apps-button{
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+}
+
+.notifications-button{
+    background-color: white;
+    border: none;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.fix-position{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+
+}
